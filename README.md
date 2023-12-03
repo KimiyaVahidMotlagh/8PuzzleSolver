@@ -4,7 +4,7 @@ This repository contains a Python implementation for solving the 8-puzzle game u
 # Table of Content
 - [Puzzle Structure and Objective](https://github.com/KimiyaVahidMotlagh/8PuzzleSolver#puzzle-structure-and-objective)
 - [Search Algorithms Implementation](https://github.com/KimiyaVahidMotlagh/8PuzzleSolver#search-algorithms-implementation)
-- [Puzzle Generation and Solvability]()
+- [Puzzle Generation and Solvability](https://github.com/KimiyaVahidMotlagh/8PuzzleSolver/blob/main/README.md#puzzle-generation-and-solvability)
 - [User Interaction and Puzzle Solving]()
 - [Conclusion]()
 
