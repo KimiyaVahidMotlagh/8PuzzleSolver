@@ -6,7 +6,7 @@ This repository contains a Python implementation for solving the 8-puzzle game u
 - [Search Algorithms Implementation](https://github.com/KimiyaVahidMotlagh/8PuzzleSolver#search-algorithms-implementation)
 - [Puzzle Generation and Solvability](https://github.com/KimiyaVahidMotlagh/8PuzzleSolver/blob/main/README.md#puzzle-generation-and-solvability)
 - [User Interaction and Puzzle Solving](https://github.com/KimiyaVahidMotlagh/8PuzzleSolver/blob/main/README.md#user-interaction-and-puzzle-solving)
-- [Conclusion]()
+- [Conclusion](https://github.com/KimiyaVahidMotlagh/8PuzzleSolver/blob/main/README.md#conclusion)
 
 # Puzzle Structure and Objective
 The 8-puzzle game consists of a 3x3 grid with 8 numbered tiles and one empty space. The goal is to move the tiles until they are in order from 1 to 8, with the empty space at the end. Solving the puzzle requires
@@ -39,5 +39,14 @@ The script allows for user interaction to input custom puzzle states. It checks 
 for the puzzle, validating the input for correctness and solvability. Then using any of search algorithms will solve the initial state,print solution path and depth: If a solution is found, it prints the sequence of moves and the depth of the solution.
 
 # Conclusion
-This implementation serves as a comprehensive study of various search algorithms applied to the 8-puzzle problem. It demonstrates the effectiveness and differences of each algorithm in solving the puzzle.
+This project demonstrates the application of various search algorithms to solve the 8-puzzle. Each algorithm has its unique characteristics:
+
+- Breadth-First Search (BFS) ensures the shortest path but can be memory-intensive.
+- Depth-First Search (DFS) is memory-efficient but may find suboptimal solutions.
+- Iterative Deepening Search (IDS) combines BFS's completeness with DFS's space efficiency.
+- A* Search is efficient and optimal with an appropriate heuristic.
+- Iterative Deepening A (IDA)** reduces memory usage of A* at the expense of increased computation.
+- Recursive Best-First Search (RBFS) optimizes memory usage while maintaining A*'s properties.
+- Bidirectional Search can significantly reduce search time by simultaneously searching from both ends. <br/>
+The choice of algorithm depends on the specific requirements of space efficiency, optimality, and execution time. This project illustrates the practical trade-offs between these algorithms in a real-world problem.
 
